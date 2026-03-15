@@ -35,7 +35,7 @@ jobs:
       - name: Run AI Review
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: python ai_review.py
+        run: python scripts/ai_review.py
 
       - name: Post Review Comment
         uses: actions/github-script@v6
