@@ -10,3 +10,4 @@ spec:
       targetPort: eighty
       protocol: TCP
   type: NodePort
+  
