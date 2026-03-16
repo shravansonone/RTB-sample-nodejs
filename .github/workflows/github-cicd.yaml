@@ -8,5 +8,10 @@ on:
       - 'scripts/README.md'
 
 jobs:
+
   ci:
     uses: shravansonone/RTB-GH-Action/.github/workflows/ci.yml@main
+
+  cd:
+    needs: ci
+    uses: shravansonone/RTB-GH-Action/.github/workflows/cd.yml@main
