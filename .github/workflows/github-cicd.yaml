@@ -14,4 +14,4 @@ jobs:
 
   cd:
     needs: ci
-    uses: shravansonone/RTB-GH-Action/.github/workflows/cd.yml@main
+    uses: shravansonone/RTB-GH-Action/.github/workflows/cd.yaml@main
