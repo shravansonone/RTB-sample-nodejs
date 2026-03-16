@@ -1,13 +1,11 @@
-const express = require("express")
+const express = require("express");
 
-const app = express()
+const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from GitHub Actions CI/CD 🚀")
-})
+  res.send("Node CI Pipeline Running");
+});
 
-const PORT = 3000
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`)
-})
+app.listen(3000, () => {
+  console.log("Server running on port 3000");
+});
