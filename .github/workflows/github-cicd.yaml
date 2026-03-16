@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'scripts/README.md'
 
 jobs:
   ci:
