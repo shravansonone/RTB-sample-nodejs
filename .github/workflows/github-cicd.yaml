@@ -1,0 +1,10 @@
+name: Application Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ci:
+    uses: shravansonone/RTB-GH-Action/.github/workflows/ci.yml@main
