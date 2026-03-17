@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'scripts/README.md'
+      - 'scripts/README.md/k8s'
 
 jobs:
 
