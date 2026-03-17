@@ -20,3 +20,4 @@ jobs:
     secrets: inherit
     with:
       image_tag: ${{ needs.ci.outputs.commit_id }}
+
