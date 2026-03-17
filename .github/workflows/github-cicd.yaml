@@ -13,9 +13,9 @@ jobs:
     uses: shravansonone/RTB-GH-Action/.github/workflows/ci.yml@main
     secrets: inherit
 
-  cd:
-    needs: ci
-    uses: shravansonone/RTB-GH-Action/.github/workflows/cd.yaml@main
-    secrets: inherit
-    with:
-      commit_id: ${{ needs.ci.outputs.commit_id }}
+  # cd:
+  #   needs: ci
+  #   uses: shravansonone/RTB-GH-Action/.github/workflows/cd.yaml@main
+  #   secrets: inherit
+  #   with:
+  #     commit_id: ${{ needs.ci.outputs.commit_id }}
