@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: shravansonone/node-demo:
+        image: shravansonone/node-demo:
           ports:
             - containerPort: 3000
           resources:
