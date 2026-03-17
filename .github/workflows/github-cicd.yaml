@@ -18,5 +18,4 @@ jobs:
     uses: shravansonone/RTB-GH-Action/.github/workflows/cd.yaml@main
     secrets: inherit
     with:
-      commit_id: ${{ needs.ci.outputs.commit_id }}
-
+      image_tag: ${{ needs.ci.outputs.commit_id }}
