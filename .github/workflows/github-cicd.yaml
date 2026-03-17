@@ -19,4 +19,3 @@ jobs:
     secrets: inherit
     with:
       commit_id: ${{ needs.ci.outputs.commit_id }}
-
