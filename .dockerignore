@@ -1,0 +1,6 @@
+# Ignore Kubernetes manifests
+k8s/
+
+# Ignore documentation
+scripts/
+README.md
